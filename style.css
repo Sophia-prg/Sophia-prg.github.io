@@ -1,0 +1,97 @@
+/* This is the style css the file the body impacts the backgroundm */
+body {
+  background: #d4c8e4;
+}
+/* background for the waffle sandwich page */
+.Sandwich{
+  background:#75f6d6;
+}
+/* This is controlling the paragraph elements with the color margin on the home page */
+p {
+  color:#603a08;
+  margin-left: 10px;
+  font-family: monospace;
+}
+/* This is the default setting for the starter page */
+.HomePage{
+  font-weight: bold;
+  margin-left: 240px;
+  color: black;
+}
+/* This is for the color of text on the waffle page */
+.Sandwich{
+  color: #553408;
+}
+/* This is for any heading 3's code */
+h3{
+  margin-left: 10px;
+}
+/* This is the color of the intro box */
+.Intro{
+  background-color: aqua;
+  border: dashed;
+  font-family: sans-serif;
+  
+}
+/* This is for controlling the images on the waffle page */
+img{
+
+  width:400px;
+  border:dotted;
+  border-color: darkturquoise;
+  border-width: 25px;
+  margin
+  
+}
+
+/* This is to control the content on the homepage for the recipes */  
+.Recipes{
+  display: flex;
+  flex-wrap:wrap;
+ justify-content: space-around;
+  align-items:flex-end;
+}
+
+/* This is for the order list in the waffle section */  
+ol.Waffle-List{
+  font-family: sans-serif;
+  color: dimgrey;
+}
+/* This is the code for the Falooda page */
+.Looda{
+  background-color: beige;
+  border:dashed;
+  color: #9f1313;
+  font-family:cursive;
+ 
+  
+}
+/* This is controlling the images on the Falooda page */
+.Cream{
+  border: groove;
+ border-color: crimson; 
+  width: 350px;
+ height: 400px;
+  display: flex;
+  flex-direction: row;
+}
+/* This is controlling the brownies page */
+.Rines{
+  background-color:antiquewhite;
+  border:groove;
+  color: #4e2d0e;
+  font-family:cursive;
+  border-color:burlywood;
+  
+}
+/* This is controlling the brownie page images */
+.senir{
+  border:dashed;
+  border-color:darkgoldenrod; 
+  width: 351px;
+  height: 402px;
+  display: flex;
+  flex-direction: row;
+}
+
+ 
