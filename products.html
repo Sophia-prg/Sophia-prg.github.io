@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0" />
+    <title>RUBYRadiance</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+    
+ </head>
+  <body>
+   <!-- Navbar Section -->
+    <nav class="navbar">
+    <div class="navbar__container">
+        <a href="/" id="navbar__logo"> <i class="fas fa-gem"></i>RUBYRadiance</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="index.html" class="navbar__links">Home</a>
+            </li>
+            <li class="navbar__item">
+                <a href="about.html" class="navbar__links">About</a>
+            </li>
+            <li class="navbar__item">
+                <a href="products.html" class="navbar__links">Products</a>
+            </li>
+
+
+        </ul>
+     </div>
+   </nav>
+ 
+   
+
+    <!-- Hero Section -->
+     <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>LET'S FIND THE  </h1>
+                <h2> ITEM FOR YOU</h2>
+            </div>
+            <div class="pro__img--container">
+                <img src="images/cosemtics.jpg" alt="pic" id="main__img" />
+            </div>
+        </div>
+        <div class="filter">
+             <div id="filter__container">
+                    <div class="filter__bar">
+            <a href="/" id="fil_logo"> <i class="fas fa-gem"></i>RR</a>
+            <button class= "filter-btn" data-category="HAIRCARE" onclick="filter()"> HAIRCARE</button>
+            <button class= "filter-btn" data-category="COSMETICS" onclick="filter()"> COSMETICS </button>
+            <button class= "filter-btn" data-category="JEWELRY" onclick="filter()"> JEWELRY </button>
+            <button class= "filter-btn" data-category="MAKEUP" onclick="filter()"> MAKEUP </button>
+            <button class= "filter-btn" data-category="MOSTPOPULAR" onclick="filter()"> MOST POPULAR </button>
+            <button class= "filter-btn" data-category="ALLITEMS" onclick="filter()"> ALL ITEMS </button>
+        </div>
+     </div>
+  </div>
+</div>
+    
+
+    
+
+        <!-- Products Section -->
+         <form action="order.html" >
+            <div class="products">
+            <br>
+            <br>
+            <br>
+            <div id="products__container">
+                <div class="products__card MAKEUP COSMETICS ALLITEMS"  >
+                 <div class="product-item"></div>   
+                 <h2>RUBY Lipstick</h2>
+                <h3>Price: $5</h3>
+                <label for="RUBY_Lipstick">How many items would you like to order?</label>
+                <input type="number" id="RUBY_Lipstick" name="RUBY_Lipstick" min="1" max="5">
+                </div>
+                <div class="products__card2 JEWELRY ALLITEMS">
+                <h2>RUBY Ring</h2>
+                <h3>Price: $10</h3>
+                <label for="RUBY_Ring">How many items would you like to order?</label>
+                <input type="number" id="RUBY_Ring" name="RUBY_Ring" min="1" max="5">
+                </div>
+                <div class="products__card3 HAIRCARE COSMETICS ALLITEMS">
+                <h2>RUBY Shampoo</h2>
+                <h3>Price: $25</h3>
+                <label for="RUBY_Shampoo">How many items would you like to order?</label>
+                <input type="number" id="RUBY_Shampoo" name="RUBY_Shampoo" min="1" max="5">
+                </div>
+                <div class="products__card4 MAKEUP COSMETICS ALLITEMS">
+                <h2>RUBY Makeup</h2>
+                <h3>Price: $45</h3>
+                <label for="RUBY_Makeup ">How many items would you like to order?</label>
+                <input type="number" id="RUBY_Makeup" name="RUBY_Makeup" min="1" max="5">
+                </div>
+                <div class="products__card5 MAKEUP COSMETICS ALLITEMS">
+                <h2>RUBY Blush</h2>
+                <h3>Price: $5</h3>
+                <label for="RUBY_Blush">How many items would you like to order?</label>
+                <input type="number" id="RUBY_Blush" name="RUBY_Blush" min="1" max="5">
+                </div>
+                <div class="products__card6 JEWELRY ALLITEMS">
+                <h2>RUBY Necklace</h2>
+                <h3>Price: $35</h3>
+                <label for="RUBY_Necklace">How many items would you like to order?</label>
+                <input type="number" id="RUBY_Necklace" name="RUBY_Necklace" min="1" max="5">
+                </div>   
+                <div class="products__card7 MAKEUP COSMETICS ALLITEMS">
+                <h2>RUBY Blush Blender</h2>
+                <h3>Price: $5</h3>
+                <label for="RUBY_Blender">How many items would you like to order?</label>
+                <input type="number" id="RUBY_Blender" name="RUBY_Blender" min="1" max="5">
+                </div>  
+                <div class="products__card8 COSMETICS ALLITEMS MOSTPOPULAR">
+                <h2>RUBY Perfume</h2>
+                <h3>Price: $15</h3>
+                <label for="RUBY_Perfume">How many items would you like to order?</label>
+                <input type="number" id="RUBY_Perfume" name="RUBY_Perfume" min="1" max="5">
+              </div>  
+               <input type="submit" value="SUMBIT" class="submit"> 
+            </div>
+         </form>    
+   <script src="app.js"></script>
+  </body>
+</html>
